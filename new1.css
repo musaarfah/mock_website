@@ -1,0 +1,77 @@
+*{
+  margin:0;
+  padding:0;
+}
+#squad-main{
+	background-color:#000000;
+	width:100%;
+	padding:20px 0;
+}	
+.squad-txt{
+	text-align:center;
+	padding-top:0px;
+	color:#8b0000;
+	font-family:Poppins
+}
+.squad-txt h1{
+	font-size:60px
+}
+.squad{
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	margin:auto;
+	padding-top:50px
+}
+.main-squad{
+	flex-basis:33.3%;
+	text-align:center;
+	border-radius:7px;
+	margin-bottom:30px;
+	color:#fff;
+	position:relative;
+}
+.main-squad img{
+	width:100%;
+	border-radius:7px;
+}
+.overlay{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	border-radius:7px;
+	cursor:pointer;
+	background:linear-gradient(rgba(0,0,0,0.5),#DC143C);
+	opacity:0;
+	transition:1s;
+}
+.main-squad:hover .overlay{
+	opacity:1;
+}
+.player-details{
+	width:80%;
+	position:absolute;
+	left:50%;
+	bottom:40%;
+	transform:translateX(-50%);
+}
+hr{
+	background:#fff;
+	height:2px;
+	border:0;
+	margin:15px auto;
+	width:60%;
+}	
+@media screen and (max-width:770px){
+	.main-squad{
+		flex-basis:100%;
+		margin-bottom:30px
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,63 @@
+*{
+  margin:0;
+  padding:0;
+}
+#main{
+	background:url("trafford1.jpg");
+	background-size:cover;
+	background-position:center;
+	height:100vh
+}	
+.main-txt{
+	text-align:center;
+	padding-top:70px;
+	color:#FFFFFF;
+	font-family:Arial
+}
+.main-txt h1{
+	font-size:100px
+}
+.main-txt p{
+	font-size:30px
+}
+.anchor-main{
+	margin:100px auto 0;
+	margin-left:350px;
+}
+.anchor-main a{
+	width:150px;
+	text-decoration:none;
+	display:inline-block;
+	margin:0 20px;
+	padding:12px 0;
+	color:#FFFFFF;
+	border:1px solid #FFD700;
+	position:relative;
+	z-index:1;
+	transition:color 0.5s;
+}
+.anchor-main a span{
+	width:0;
+	height:100%;
+	position:absolute;
+	top:0;
+	bottom:0;
+	background:#FFD700;
+	z-index:-1;
+	transition:0.5s
+}	
+.anchor-main a:hover span{
+	width:100%
+}
+.anchor-main a:hover{
+	color:#000;
+}
+@media screen and (max-width:770px){
+	.main-txt h1{
+	  font-size:40px;
+	}
+    	
+	.anchor-main a{
+		display:block;
+		margin:20px auto;
+	
